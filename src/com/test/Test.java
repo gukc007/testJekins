@@ -58,19 +58,19 @@ public class Test {
     }
 
     public static void main(String[] args) throws Exception {
-//        RBTreeAlgorithm rbTreeAlgorithm = new RBTreeAlgorithm();
+        RBTreeAlgorithm rbTreeAlgorithm = new RBTreeAlgorithm();
 //        rbTreeAlgorithm.cal();
 
-//        KMPAlgorithm kmpAlgorithm = new KMPAlgorithm();
+        KMPAlgorithm kmpAlgorithm = new KMPAlgorithm();
 //        kmpAlgorithm.cal();
 
-//        DPAlgorithm dpAlgorithm = new DPAlgorithm();
+        DPAlgorithm dpAlgorithm = new DPAlgorithm();
 //        dpAlgorithm.cal();
 
-//        QKSortAlgorithm qkSortAlgorithm = new QKSortAlgorithm();
+        QKSortAlgorithm qkSortAlgorithm = new QKSortAlgorithm();
 //        qkSortAlgorithm.cal();
 
-//        MergeSortAlgorithm mergeSortAlgorithm = new MergeSortAlgorithm();
+        MergeSortAlgorithm mergeSortAlgorithm = new MergeSortAlgorithm();
 //        mergeSortAlgorithm.cal();
 
 //        String test = "abasudgukchyaisuhgukc";
