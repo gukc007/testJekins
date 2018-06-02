@@ -73,10 +73,15 @@ public class Test {
         MergeSortAlgorithm mergeSortAlgorithm = new MergeSortAlgorithm();
 //        mergeSortAlgorithm.cal();
 
-        String test = "abasudgukchyaisuhgukc";
+//        String test = "abasudgukchyaisuhgukc";
+//
+//        System.out.println(test.lastIndexOf("gukc"));
+//        System.out.println(test.lastIndexOf("gukcaa"));
 
-        System.out.println(test.lastIndexOf("gukc"));
-        System.out.println(test.lastIndexOf("gukcaa"));
+        for (int i = 0; i < 10; i++) {
+            System.out.println("sucesss!!!!");
+        }
+
 //        System.out.println(test.lastIndexOf("gukc"));
 //        byte[] b = new byte[6291456 * 2];
 //        client = new Socket();
