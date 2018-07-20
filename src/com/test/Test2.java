@@ -1,14 +1,29 @@
 package com.test;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  * Created by admin on 2018/6/2.
  */
-public class Test2 {
+public class Test2 extends Thread {
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println("测试输出新的内容");
-            System.out.println("testTouse chinese:中文😞");
+    private static int b = 1;
+    private int c = 1;
+
+    public static void main(String[] agrs) {
+
+        int a = 0;
+        int b = 1;
+        try {
+            System.out.println("1");
+            int c = b/a;
+        } catch (Exception e) {
+            System.out.println("2");
+            int c = b/a;
+        } finally {
+            System.out.println("3");
         }
     }
+
 }

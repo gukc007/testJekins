@@ -3,6 +3,7 @@ package com.test;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.test.algorithm.*;
 
+import java.net.NetworkInterface;
 import java.net.Socket;
 import java.time.LocalDateTime;
 import java.util.*;
@@ -73,14 +74,20 @@ public class Test {
         MergeSortAlgorithm mergeSortAlgorithm = new MergeSortAlgorithm();
 //        mergeSortAlgorithm.cal();
 
+        EratosthenesAlgorithm eratosthenesAlgorithm = new EratosthenesAlgorithm();
+//        eratosthenesAlgorithm.cal();
+
+        BloomFilterAlgorithm bloomFilterAlgorithm = new BloomFilterAlgorithm();
+//        bloomFilterAlgorithm.cal();
+
+
 //        String test = "abasudgukchyaisuhgukc";
 //
 //        System.out.println(test.lastIndexOf("gukc"));
 //        System.out.println(test.lastIndexOf("gukcaa"));
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println("sucesss!!!!");
-        }
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("sucesss!!!!");
+//        }
 
 //        System.out.println(test.lastIndexOf("gukc"));
 //        byte[] b = new byte[6291456 * 2];
@@ -105,6 +112,11 @@ public class Test {
 //            }
 //        }
 
+    }
+
+    private static String hexByte(byte b) {
+        String s = "000000" + Integer.toHexString(b);
+        return s.substring(s.length() - 2);
     }
 
 
